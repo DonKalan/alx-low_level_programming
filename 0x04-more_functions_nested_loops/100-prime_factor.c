@@ -12,7 +12,7 @@
  */
 long largest_prime_factor(long num)
 {
-    long i, largest;
+    long i, largest = -1;
 
     while (num % 2 == 0)
     {
