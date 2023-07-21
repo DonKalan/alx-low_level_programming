@@ -11,7 +11,7 @@
  */
 void print_triangle(int size)
 {
-    int row, column;
+    int row, spaces, hashes;
 
     if (size <= 0)
     {
@@ -21,11 +21,16 @@ void print_triangle(int size)
 
     for (row = 1; row <= size; row++)
     {
-        for (column = 1; column <= row; column++)
+        for (spaces = size - row; spaces > 0; spaces--)
+        {
+            _putchar(' ');
+        }
+
+        for (hashes = 1; hashes <= row; hashes++)
         {
             _putchar('#');
         }
+
         _putchar('\n');
     }
 }
-
