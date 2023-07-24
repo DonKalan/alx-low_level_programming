@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - Returns the length of a string.
+ * puts_half - Prints half of a string, followed by a new line.	
  * @s: Pointer to the input string.
  *
- * Return: Length of the string.
+ * Return: void.
  */
 void puts_half(char *str)
 {
@@ -14,7 +14,7 @@ void puts_half(char *str)
 	while (str[full_string] != '\0')
 		full_string++;
 
-	half_string = full_string /2;
+	half_string = full_string / 2;
 
 	if (full_string % 2 == 1)
 		half_string++;
