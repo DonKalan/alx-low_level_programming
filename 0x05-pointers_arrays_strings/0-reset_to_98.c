@@ -1,6 +1,6 @@
 #include "main.h"
-/*
- * main- set_to_98 - Updates the value of an integer to 98.
+/**
+ * set_to_98 - Updates the value of an integer to 98.
  * @n: A pointer to an integer.
  *
  * Return: void.
