@@ -1,14 +1,12 @@
 #include "main.h"
 /**
- * mul - func checks for checks for a digit (0 through)
- * @a: a - Variable 
- * @b: b - Variable
- * Return: Always 0 (Success)
+ * mul - multiply 2 int
+ * @a: first int
+ * @b: second int
+ * Return: addition of the multiplicattion
  */
+
 int mul(int a, int b)
 {
-	int mul;
-
-	mul = a*b;
-	return (mul);
+	return (a * b);
 }
